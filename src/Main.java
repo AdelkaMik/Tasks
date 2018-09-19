@@ -13,4 +13,8 @@ public class Main {
         System.out.println();
         Car car2 = new Car();
     }
+
+    public void picuDelam() {
+        
+    }
 }
