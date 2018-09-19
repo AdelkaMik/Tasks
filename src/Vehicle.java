@@ -1,15 +1,19 @@
-public abstract class Vehicle{
-    int wheels;
+public abstract class Vehicle {
+    private int wheels;
 
-    public Vehicle(int w){
-        this.w = wheels;
+    public Vehicle(int wheels) {
+        System.out.println("Volam explicitine predka");
+        this.wheels = wheels;
     }
 
-    public static getWheels{
+    public Vehicle() {
+        System.out.println("Vola se implicitne predek");
+        this.wheels = 4;
+    }
+
+    public int getWheels(){
         return wheels;
     }
 
-    public abstract washWheels;
-    
-
+    public abstract void washWheels();
 }

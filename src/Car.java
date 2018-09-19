@@ -1,23 +1,25 @@
-public class Car extends Vehicle{
-    String licensePlate;
-    int count;
+public class Car extends Vehicle {
+    private String licensePlate;
+    private int count;
 
-    public Car{
+    public Car() {
+        System.out.println("volam se tady");
         this.licensePlate = "Unknown";
         this.count = 0;
     }
     
     public Car(String s, int i){
-        this.s = licensePlate;
-        
+        super(i);
+        System.out.println("volam se parametrizovany konstruktor 'car' ");
+        this.licensePlate = s;
     }
     
-    @override
-    public washWheels {
+    @Override
+    public void washWheels() {
         System.out.println("Car cleaned");
     }
 
-    public statict getLicenseplate{
+    public String getLicenseplate(){
         return licensePlate;
     }
 }
