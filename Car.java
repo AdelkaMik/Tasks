@@ -13,7 +13,7 @@ public class Car extends Vehicle{
     }
     
     @override
-    public washwheels {
+    public washWheels {
         System.out.println("Car cleaned");
     }
 
