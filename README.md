@@ -7,6 +7,6 @@
 
 4. Vytvořit třídu Motorcycle, která bdue dědit od Vehicle, bude mít dvě kola, překrje abstraktní metody.
 
-5. Implementuj rozhraní DieselCar, které bude mít metodu showMotor()
+5. Implementuj rozhraní MotorCar, které bude mít metodu showMotor()
 
 5. Vytvořit třídy BMW, AUDI, Porsche, které dědí od Car, do třídy Car doplnit rozhraní MotorCar, a mají atribut motor, který vypíšou pomocí showMotor.
