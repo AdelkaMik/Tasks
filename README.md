@@ -9,4 +9,6 @@
 
 5. Implementuj rozhraní MotorCar, které bude mít metodu showMotor()
 
-5. Vytvořit třídy BMW, AUDI, Porsche, které dědí od Car, do třídy Car doplnit rozhraní MotorCar, a mají atribut motor, který vypíšou pomocí showMotor.
+6. Vytvořit třídy BMW, AUDI, Porsche, které dědí od Car, do třídy Car doplnit rozhraní MotorCar, a mají atribut motor, který vypíšou pomocí showMotor.
+
+7. Vytvoř třídu AutoSalon, která bude mít seznam aut. Ty se načtou ze souboru cars.txt pomocí metody loadCars(String fileName). Každý auto je popsáno 4 řádky, první je typ auta(AUDI, BMW, ..), poznávací značka, počet kol a motor.
