@@ -12,6 +12,7 @@ public class Main {
         System.out.println();
         System.out.println();
         Car car2 = new Car();
+        Motorcycle motorcycle = new Motorcycle();
     }
 
     public void picuDelam() {

@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle implements MotorCar {
     private String licensePlate;
     private int count;
 
@@ -7,13 +7,13 @@ public class Car extends Vehicle {
         this.licensePlate = "Unknown";
         this.count = 0;
     }
-    
+
     public Car(String s, int i){
         super(i);
         System.out.println("volam se parametrizovany konstruktor 'car' ");
         this.licensePlate = s;
     }
-    
+
     @Override
     public void washWheels() {
         System.out.println("Car cleaned");
@@ -21,5 +21,9 @@ public class Car extends Vehicle {
 
     public String getLicenseplate(){
         return licensePlate;
+    }
+
+    public String showMotor() {
+        return "motor";
     }
 }
